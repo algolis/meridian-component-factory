@@ -1,7 +1,15 @@
+> [!IMPORTANT]
+> **This repository has moved.**
+> The active version is maintained at:
+> **https://eu.git.epam.com/zsolt_hever/meridian-component-factory**
+> This copy is no longer updated.
+
+---
+
 # Meridian Angular AI Factory
 
 **AI/RUN Mission 2026 — Build Your AI Factory**
-Team: Zsolt Hever (solo) · Track: Engineering
+
 
 ---
 
@@ -111,7 +119,7 @@ podman run --rm \
   -e GITHUB_TOKEN=<token> \
   -e ANTHROPIC_API_KEY=<key> \
   -e ISSUE_NUMBER=1 \
-  -e REPO_NAME=algolis/meridian-angular-factory \
+  -e REPO_NAME=your-org/meridian-angular-factory \
   meridian-factory python agents/factory/agent.py
 
 # Run review agent
@@ -119,7 +127,7 @@ podman run --rm \
   -e GITHUB_TOKEN=<token> \
   -e ANTHROPIC_API_KEY=<key> \
   -e PR_NUMBER=1 \
-  -e REPO_NAME=algolis/meridian-angular-factory \
+  -e REPO_NAME=your-org/meridian-angular-factory \
   meridian-factory python agents/review/agent.py
 ```
 

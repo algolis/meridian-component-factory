@@ -59,6 +59,6 @@ Factory opens PR with `ProductTileComponent` in `src/app/components/product-tile
 [factory] Issue #12: "Click-and-collect slot picker"
 [factory] Calling Claude API... done (1 843 tokens)
 [factory] Writing 5 files to branch ai/component-slot-picker-i12
-[factory] PR #34 opened: https://github.com/algolis/meridian-angular-factory/pull/34
+[factory] PR #34 opened: https://github.com/your-org/meridian-angular-factory/pull/34
 [factory] Commented on issue #12
 ```
